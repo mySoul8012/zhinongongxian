@@ -1,0 +1,686 @@
+.page {
+  z-index: 1;
+  position: relative;
+  width: 750rpx;
+  background-color: rgba(247, 247, 247, 1);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding-top: 0;
+}
+
+.box1 {
+  z-index: auto;
+  width: 750rpx;
+
+}
+
+.bd1 {
+  z-index: 2;
+  height: 176rpx;
+  background-color: rgba(255, 255, 255, 1);
+  width: 750rpx;
+  justify-content: flex-start;
+}
+
+.mod1 {
+  z-index: auto;
+  width: 750rpx;
+  height: 158rpx;
+}
+
+.group1 {
+  z-index: 7;
+  height: 88rpx;
+  width: 750rpx;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 28rpx 22rpx 0;
+}
+
+.mod2 {
+  z-index: auto;
+  width: 680rpx;
+  height: 34rpx;
+}
+
+.outer1 {
+  z-index: 22;
+  width: 108rpx;
+  height: 34rpx;
+  overflow-wrap: break-word;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.word1 {
+  font-size: 28rpx;
+  font-family: Helvetica;
+  color: rgba(0, 0, 0, 1);
+  line-height: 34rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.word2 {
+  font-size: 28rpx;
+  font-family: Helvetica;
+  color: rgba(0, 0, 0, 1);
+  line-height: 34rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.outer2 {
+  z-index: 16;
+  width: 34rpx;
+  height: 22rpx;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng8ce7767a969f0a87db754c9e45a3e7a4dcead05688664c56b6305e19b5138508) -1rpx -1rpx
+    no-repeat;
+  margin: 4rpx 0 0 438rpx;
+}
+
+.outer3 {
+  z-index: 12;
+  width: 32rpx;
+  height: 22rpx;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng92d71d13da58ba4887551315bf83a1d7044dd8e56d5d54f8f479185caa02c6e2) -1rpx
+    0rpx no-repeat;
+  margin: 4rpx 0 0 10rpx;
+}
+
+.label1 {
+  z-index: 8;
+  width: 50rpx;
+  height: 24rpx;
+  margin: 2rpx 0 0 8rpx;
+}
+
+.group2 {
+  z-index: auto;
+  width: 670rpx;
+  height: 50rpx;
+  margin: 20rpx 0 0 40rpx;
+}
+
+.icon1 {
+  z-index: 23;
+  width: 24rpx;
+  height: 44rpx;
+  margin-top: 4rpx;
+}
+
+.txt1 {
+  z-index: 3;
+  width: 142rpx;
+  height: 50rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 36rpx;
+  letter-spacing: -0.4320000112056732px;
+  white-space: nowrap;
+  line-height: 50rpx;
+  text-align: left;
+  margin-left: 240rpx;
+}
+
+.word3 {
+  z-index: 4;
+  width: 56rpx;
+  height: 40rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(11, 196, 119, 1);
+  font-size: 28rpx;
+  letter-spacing: -0.335999995470047px;
+  white-space: nowrap;
+  line-height: 40rpx;
+  text-align: left;
+  margin: 6rpx 0 0 208rpx;
+}
+
+.bd2 {
+  z-index: auto;
+  width: 162rpx;
+  height: 44rpx;
+  justify-content: space-between;
+  margin: 20rpx 0 0 20rpx;
+}
+
+.box2 {
+  z-index: 31;
+  width: 16rpx;
+  height: 40rpx;
+  border-radius: 4px;
+  background-color: rgba(11, 196, 119, 1);
+  margin-top: 2rpx;
+}
+
+.info1 {
+  z-index: 35;
+  width: 126rpx;
+  height: 44rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 32rpx;
+  letter-spacing: -0.3840000033378601px;
+  white-space: nowrap;
+  line-height: 44rpx;
+  text-align: left;
+}
+
+.bd3 {
+  z-index: 27;
+  height: 180rpx;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 9px -2px rgba(0, 0, 0, 0.19);
+  align-self: center;
+  margin-top: 20rpx;
+  width: 710rpx;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 18rpx 0 0 20rpx;
+}
+
+.block1 {
+  z-index: auto;
+  width: 650rpx;
+  height: 136rpx;
+}
+
+.section1 {
+  z-index: 37;
+  width: 100rpx;
+  height: 100rpx;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng292143b568bf961a51f5ebef2b3cfc4c29931d135def35f10221e5fb7ef4288b) -4rpx -4rpx
+    no-repeat;
+  margin-top: 12rpx;
+}
+
+.section2 {
+  z-index: auto;
+  width: 464rpx;
+  height: 136rpx;
+  margin-left: 20rpx;
+}
+
+.layer1 {
+  z-index: auto;
+  width: 252rpx;
+  height: 44rpx;
+  justify-content: space-between;
+}
+
+.word4 {
+  z-index: 48;
+  width: 94rpx;
+  height: 44rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 32rpx;
+  letter-spacing: -0.3840000033378601px;
+  font-family: PingFangSC-Medium;
+  white-space: nowrap;
+  line-height: 44rpx;
+  text-align: left;
+}
+
+.word5 {
+  z-index: 56;
+  width: 138rpx;
+  height: 34rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 24rpx;
+  white-space: nowrap;
+  line-height: 34rpx;
+  text-align: left;
+  margin-top: 4rpx;
+}
+
+.paragraph1 {
+  z-index: 52;
+  width: 464rpx;
+  height: 80rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 28rpx;
+  letter-spacing: -0.335999995470047px;
+  line-height: 40rpx;
+  text-align: left;
+  margin-top: 12rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon2 {
+  z-index: 60;
+  width: 32rpx;
+  height: 32rpx;
+  margin: 60rpx 0 0 34rpx;
+}
+
+.bd4 {
+  z-index: auto;
+  width: 100rpx;
+  height: 44rpx;
+  justify-content: space-between;
+  margin: 40rpx 0 0 20rpx;
+}
+
+.outer4 {
+  z-index: 32;
+  width: 16rpx;
+  height: 40rpx;
+  border-radius: 4px;
+  background-color: rgba(11, 196, 119, 1);
+  margin-top: 2rpx;
+}
+
+.word6 {
+  z-index: 36;
+  width: 64rpx;
+  height: 44rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 32rpx;
+  letter-spacing: -0.3840000033378601px;
+  white-space: nowrap;
+  line-height: 44rpx;
+  text-align: left;
+}
+
+.bd5 {
+  z-index: 28;
+  height: 180rpx;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 9px -2px rgba(0, 0, 0, 0.19);
+  align-self: center;
+  margin-top: 20rpx;
+  width: 710rpx;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 18rpx 0 0 20rpx;
+}
+
+.box3 {
+  z-index: auto;
+  width: 650rpx;
+  height: 136rpx;
+}
+
+.outer5 {
+  z-index: 45;
+  height: 100rpx;
+  border-radius: 50%;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng4d835bfbff587e50b71b306f15b1f76c14239521f8a68d96b4083d591617122e)
+    100% no-repeat;
+  margin-top: 12rpx;
+  width: 100rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.info2 {
+  z-index: 97;
+  width: 36rpx;
+  height: 50rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(29, 166, 109, 1);
+  font-size: 36rpx;
+  letter-spacing: -0.4320000112056732px;
+  white-space: nowrap;
+  line-height: 50rpx;
+  text-align: left;
+}
+
+.outer6 {
+  z-index: auto;
+  width: 464rpx;
+  height: 136rpx;
+  margin-left: 20rpx;
+}
+
+.mod3 {
+  z-index: auto;
+  width: 252rpx;
+  height: 44rpx;
+  justify-content: space-between;
+}
+
+.info3 {
+  z-index: 49;
+  width: 94rpx;
+  height: 44rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 32rpx;
+  letter-spacing: -0.3840000033378601px;
+  font-family: PingFangSC-Medium;
+  white-space: nowrap;
+  line-height: 44rpx;
+  text-align: left;
+}
+
+.txt2 {
+  z-index: 57;
+  width: 138rpx;
+  height: 34rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 24rpx;
+  white-space: nowrap;
+  line-height: 34rpx;
+  text-align: left;
+  margin-top: 4rpx;
+}
+
+.paragraph2 {
+  z-index: 53;
+  width: 464rpx;
+  height: 80rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 28rpx;
+  letter-spacing: -0.335999995470047px;
+  line-height: 40rpx;
+  text-align: left;
+  margin-top: 12rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.label2 {
+  z-index: 70;
+  width: 32rpx;
+  height: 32rpx;
+  margin: 60rpx 0 0 34rpx;
+}
+
+.bd6 {
+  z-index: 29;
+  height: 180rpx;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 9px -2px rgba(0, 0, 0, 0.19);
+  align-self: center;
+  margin-top: 20rpx;
+  width: 710rpx;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 18rpx 0 0 20rpx;
+}
+
+.outer7 {
+  z-index: auto;
+  width: 650rpx;
+  height: 136rpx;
+}
+
+.mod4 {
+  z-index: 46;
+  height: 100rpx;
+  border-radius: 50%;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng4d835bfbff587e50b71b306f15b1f76c14239521f8a68d96b4083d591617122e)
+    100% no-repeat;
+  margin-top: 12rpx;
+  width: 100rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt3 {
+  z-index: 98;
+  width: 36rpx;
+  height: 50rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(29, 166, 109, 1);
+  font-size: 36rpx;
+  letter-spacing: -0.4320000112056732px;
+  white-space: nowrap;
+  line-height: 50rpx;
+  text-align: left;
+}
+
+.mod5 {
+  z-index: auto;
+  width: 464rpx;
+  height: 136rpx;
+  margin-left: 20rpx;
+}
+
+.outer8 {
+  z-index: auto;
+  width: 252rpx;
+  height: 44rpx;
+  justify-content: space-between;
+}
+
+.word7 {
+  z-index: 50;
+  width: 94rpx;
+  height: 44rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 32rpx;
+  letter-spacing: -0.3840000033378601px;
+  font-family: PingFangSC-Medium;
+  white-space: nowrap;
+  line-height: 44rpx;
+  text-align: left;
+}
+
+.info4 {
+  z-index: 58;
+  width: 138rpx;
+  height: 34rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 24rpx;
+  white-space: nowrap;
+  line-height: 34rpx;
+  text-align: left;
+  margin-top: 4rpx;
+}
+
+.paragraph3 {
+  z-index: 54;
+  width: 464rpx;
+  height: 80rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 28rpx;
+  letter-spacing: -0.335999995470047px;
+  line-height: 40rpx;
+  text-align: left;
+  margin-top: 12rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.label3 {
+  z-index: 79;
+  width: 32rpx;
+  height: 32rpx;
+  margin: 60rpx 0 0 34rpx;
+}
+
+.bd7 {
+  z-index: 30;
+  height: 180rpx;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 9px -2px rgba(0, 0, 0, 0.19);
+  align-self: center;
+  margin-top: 20rpx;
+  width: 710rpx;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 18rpx 0 0 20rpx;
+}
+
+.bd8 {
+  z-index: auto;
+  width: 650rpx;
+  height: 136rpx;
+}
+
+.block2 {
+  z-index: 47;
+  height: 100rpx;
+  border-radius: 50%;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng4d835bfbff587e50b71b306f15b1f76c14239521f8a68d96b4083d591617122e)
+    100% no-repeat;
+  margin-top: 12rpx;
+  width: 100rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.info5 {
+  z-index: 99;
+  width: 36rpx;
+  height: 50rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(29, 166, 109, 1);
+  font-size: 36rpx;
+  letter-spacing: -0.4320000112056732px;
+  white-space: nowrap;
+  line-height: 50rpx;
+  text-align: left;
+}
+
+.block3 {
+  z-index: auto;
+  width: 464rpx;
+  height: 136rpx;
+  margin-left: 20rpx;
+}
+
+.layer2 {
+  z-index: auto;
+  width: 252rpx;
+  height: 44rpx;
+  justify-content: space-between;
+}
+
+.word8 {
+  z-index: 51;
+  width: 94rpx;
+  height: 44rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 32rpx;
+  letter-spacing: -0.3840000033378601px;
+  font-family: PingFangSC-Medium;
+  white-space: nowrap;
+  line-height: 44rpx;
+  text-align: left;
+}
+
+.info6 {
+  z-index: 59;
+  width: 138rpx;
+  height: 34rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 24rpx;
+  white-space: nowrap;
+  line-height: 34rpx;
+  text-align: left;
+  margin-top: 4rpx;
+}
+
+.infoBox1 {
+  z-index: 55;
+  width: 464rpx;
+  height: 80rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 28rpx;
+  letter-spacing: -0.335999995470047px;
+  line-height: 40rpx;
+  text-align: left;
+  margin-top: 12rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon3 {
+  z-index: 88;
+  width: 32rpx;
+  height: 32rpx;
+  margin: 60rpx 0 0 34rpx;
+}
+
+.bd9 {
+  z-index: 100;
+  height: 80rpx;
+  border-radius: 20px;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngabf95db5fc7daeeb1ce4d64ba0abed80004d4e8cafa3b651ee1348dcc9f0eeeb)
+    100% no-repeat;
+  align-self: center;
+  margin-top: 232rpx;
+  width: 600rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.box4 {
+  z-index: auto;
+  width: 260rpx;
+  height: 44rpx;
+  justify-content: space-between;
+}
+
+.bd10 {
+  z-index: 102;
+  width: 34rpx;
+  height: 34rpx;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPnge025dcdcf5d99245409e843622729b74349476c9b305d069c57725bd65a30954) -1rpx -1rpx
+    no-repeat;
+  margin-top: 6rpx;
+}
+
+.info7 {
+  z-index: 101;
+  width: 208rpx;
+  height: 44rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 32rpx;
+  letter-spacing: 1.1888890266418457px;
+  font-family: PingFangSC-Medium;
+  white-space: nowrap;
+  line-height: 44rpx;
+  text-align: left;
+}
+
+.img1 {
+  z-index: 33;
+  width: 268rpx;
+  height: 10rpx;
+  align-self: center;
+  margin-top: 160rpx;
+}

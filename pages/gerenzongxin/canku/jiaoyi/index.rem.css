@@ -1,0 +1,445 @@
+html {
+  font-size: 37.5px;
+}
+
+.page {
+  z-index: 1;
+  position: relative;
+  width: 10rem;
+  height: 21.654rem;
+  background-color: rgba(247, 247, 247, 1);
+  overflow: hidden;
+}
+
+.main1 {
+  z-index: auto;
+  width: 10rem;
+  height: 21.654rem;
+}
+
+.block1 {
+  z-index: 2;
+  height: 2.347rem;
+  background-color: rgba(255, 255, 255, 1);
+  width: 10rem;
+  align-items: flex-end;
+  position: relative;
+}
+
+.outer1 {
+  z-index: 3;
+  height: 2.347rem;
+  background-color: rgba(255, 255, 255, 1);
+  width: 9.974rem;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0 0 0.267rem 0.24rem;
+}
+
+.outer2 {
+  z-index: auto;
+  width: 5.76rem;
+  height: 0.667rem;
+  justify-content: space-between;
+}
+
+.label1 {
+  z-index: 8;
+  width: 0.32rem;
+  height: 0.534rem;
+  margin-top: 0.08rem;
+}
+
+.word1 {
+  z-index: 30;
+  width: 2.08rem;
+  height: 0.667rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 0.48rem;
+  letter-spacing: 1.3375000953674316px;
+  white-space: nowrap;
+  line-height: 0.667rem;
+  text-align: left;
+}
+
+.outer3 {
+  z-index: 12;
+  height: 1.174rem;
+  width: 10rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 0.374rem 0.294rem 0;
+}
+
+.bd1 {
+  z-index: auto;
+  width: 9.067rem;
+  height: 0.454rem;
+}
+
+.bd2 {
+  z-index: 27;
+  width: 1.44rem;
+  height: 0.454rem;
+  overflow-wrap: break-word;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.word2 {
+  font-size: 0.373rem;
+  font-family: Helvetica;
+  color: rgba(0, 0, 0, 1);
+  line-height: 0.454rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.word3 {
+  font-size: 0.373rem;
+  font-family: Helvetica;
+  color: rgba(0, 0, 0, 1);
+  line-height: 0.454rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bd3 {
+  z-index: 21;
+  width: 0.454rem;
+  height: 0.294rem;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng8ce7767a969f0a87db754c9e45a3e7a4dcead05688664c56b6305e19b5138508) -0.027rem -0.027rem
+    no-repeat;
+  background-size: 0.48rem 0.32rem;
+  margin: 0.054rem 0 0 5.84rem;
+}
+
+.bd4 {
+  z-index: 17;
+  width: 0.427rem;
+  height: 0.294rem;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng92d71d13da58ba4887551315bf83a1d7044dd8e56d5d54f8f479185caa02c6e2) -0.027rem
+    0rem no-repeat;
+  background-size: 0.427rem 0.32rem;
+  margin: 0.054rem 0 0 0.134rem;
+}
+
+.label2 {
+  z-index: 13;
+  width: 0.667rem;
+  height: 0.32rem;
+  margin: 0.027rem 0 0 0.107rem;
+}
+
+.block2 {
+  z-index: 31;
+  height: 7.04rem;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 9px -2px rgba(0, 0, 0, 0.19);
+  align-self: center;
+  margin-top: 0.534rem;
+  width: 9.467rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.main2 {
+  z-index: auto;
+  width: 8.4rem;
+  height: 5.974rem;
+}
+
+.bd5 {
+  z-index: auto;
+  width: 8.294rem;
+  height: 2.667rem;
+  justify-content: space-between;
+}
+
+.bd6 {
+  z-index: 33;
+  position: relative;
+  width: 2.667rem;
+  height: 2.667rem;
+  overflow: hidden;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng03d4323b68b02c3e3ecd4cd7893d6657fb870bfb3833a0dd43b2f5f1ded9ba63)
+    100% no-repeat;
+}
+
+.img1 {
+  z-index: 34;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2.667rem;
+  height: 2.667rem;
+}
+
+.bd7 {
+  z-index: auto;
+  width: 5.12rem;
+  height: 2.24rem;
+  margin-top: 0.027rem;
+}
+
+.paragraph1 {
+  z-index: 35;
+  width: 5.12rem;
+  height: 1.6rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 0.373rem;
+  letter-spacing: -0.335999995470047px;
+  line-height: 0.534rem;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.info1 {
+  z-index: 36;
+  width: 0.747rem;
+  height: 0.587rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(1, 78, 8, 1);
+  font-size: 0.426rem;
+  letter-spacing: -0.3840000033378601px;
+  white-space: nowrap;
+  line-height: 0.587rem;
+  text-align: left;
+  align-self: flex-start;
+  margin: 0.054rem 0 0 0.027rem;
+}
+
+.bd8 {
+  z-index: auto;
+  width: 8.134rem;
+  height: 0.64rem;
+  justify-content: space-between;
+  margin: 0.56rem 0 0 0.267rem;
+}
+
+.txt1 {
+  z-index: 37;
+  width: 1.467rem;
+  height: 0.534rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 0.373rem;
+  letter-spacing: -0.335999995470047px;
+  white-space: nowrap;
+  line-height: 0.534rem;
+  text-align: left;
+  margin-top: 0.054rem;
+}
+
+.mod1 {
+  z-index: 41;
+  height: 0.64rem;
+  border-radius: 2px;
+  border: 1px solid rgba(153, 153, 153, 1);
+  background-color: rgba(255, 255, 255, 1);
+  width: 2.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 {
+  z-index: auto;
+  width: 2.027rem;
+  height: 0.614rem;
+}
+
+.block3 {
+  z-index: 45;
+  width: 0.267rem;
+  height: 0.054rem;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng2f8f867df272644cc819e08dd8b7bf41c5ac155489377d4910f5eb2aaa7db04a)
+    100% no-repeat;
+  margin-top: 0.267rem;
+}
+
+.block4 {
+  z-index: 42;
+  width: 0.027rem;
+  height: 0.614rem;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng8644c155b38b3e379a1a6e45e6337d14db6e8362436bb9604417c5b3979c9f5a)
+    0rem -0.027rem no-repeat;
+  background-size: 0.027rem 0.667rem;
+  margin-left: 0.16rem;
+}
+
+.info2 {
+  z-index: 44;
+  width: 0.187rem;
+  height: 0.587rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 0.426rem;
+  letter-spacing: -0.3840000033378601px;
+  white-space: nowrap;
+  line-height: 0.587rem;
+  text-align: left;
+  margin-left: 0.454rem;
+}
+
+.block5 {
+  z-index: 43;
+  width: 0.027rem;
+  height: 0.614rem;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng8644c155b38b3e379a1a6e45e6337d14db6e8362436bb9604417c5b3979c9f5a)
+    0rem -0.027rem no-repeat;
+  background-size: 0.027rem 0.667rem;
+  margin-left: 0.48rem;
+}
+
+.icon1 {
+  z-index: 47;
+  width: 0.267rem;
+  height: 0.267rem;
+  margin: 0.16rem 0 0 0.16rem;
+}
+
+.bd9 {
+  z-index: auto;
+  width: 3.84rem;
+  height: 0.534rem;
+  justify-content: space-between;
+  margin: 0.534rem 0 0 0.267rem;
+}
+
+.info3 {
+  z-index: 38;
+  width: 0.747rem;
+  height: 0.534rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 0.373rem;
+  letter-spacing: -0.335999995470047px;
+  white-space: nowrap;
+  line-height: 0.534rem;
+  text-align: left;
+}
+
+.txt2 {
+  z-index: 39;
+  width: 2.827rem;
+  height: 0.454rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 0.32rem;
+  letter-spacing: -0.2879999876022339px;
+  white-space: nowrap;
+  line-height: 0.454rem;
+  text-align: left;
+  margin-top: 0.054rem;
+}
+
+.bd10 {
+  z-index: 40;
+  width: 2.64rem;
+  height: 0.534rem;
+  overflow-wrap: break-word;
+  text-align: left;
+  white-space: nowrap;
+  align-self: flex-end;
+  margin-top: 0.507rem;
+  font-size: 0;
+}
+
+.word4 {
+  font-size: 0.32rem;
+  color: rgba(51, 51, 51, 1);
+  line-height: 0.454rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.word5 {
+  font-size: 0.373rem;
+  color: rgba(51, 51, 51, 1);
+  line-height: 0.454rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.block6 {
+  z-index: 4;
+  height: 2.507rem;
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 9.227rem;
+  width: 10rem;
+}
+
+.main3 {
+  z-index: auto;
+  width: 6.374rem;
+  height: 1.334rem;
+  justify-content: space-between;
+  margin: 0.267rem 0 0 3.36rem;
+}
+
+.txt3 {
+  z-index: 7;
+  width: 3.174rem;
+  height: 0.667rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 0.48rem;
+  letter-spacing: -0.4320000112056732px;
+  white-space: nowrap;
+  line-height: 0.667rem;
+  text-align: left;
+  margin-top: 0.347rem;
+}
+
+.section2 {
+  z-index: 5;
+  height: 1.334rem;
+  border-radius: 25px;
+  background-color: rgba(11, 196, 119, 1);
+  width: 2.934rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.word6 {
+  z-index: 6;
+  width: 1.894rem;
+  height: 0.667rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.48rem;
+  letter-spacing: -0.4320000112056732px;
+  white-space: nowrap;
+  line-height: 0.667rem;
+  text-align: left;
+}
+
+.main4 {
+  z-index: auto;
+  width: 3.574rem;
+  height: 0.134rem;
+  margin: 0.534rem 0 0 3.227rem;
+}
+
+.img2 {
+  z-index: 28;
+  width: 3.574rem;
+  height: 0.134rem;
+}

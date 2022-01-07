@@ -1,0 +1,229 @@
+html {
+  font-size: 37.5px;
+}
+
+.page {
+  z-index: 1;
+  position: relative;
+  width: 10rem;
+  height: 21.654rem;
+  background-color: rgba(247, 247, 247, 1);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding-top: 0;
+}
+
+.main1 {
+  z-index: auto;
+  width: 10rem;
+  height: 21.414rem;
+}
+
+.layer1 {
+  z-index: 2;
+  height: 2.347rem;
+  background-color: rgba(255, 255, 255, 1);
+  width: 10rem;
+  align-items: flex-end;
+  position: relative;
+}
+
+.group1 {
+  z-index: 3;
+  height: 2.347rem;
+  background-color: rgba(255, 255, 255, 1);
+  width: 9.974rem;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0 0 0.267rem 0.24rem;
+}
+
+.section1 {
+  z-index: auto;
+  width: 5.76rem;
+  height: 0.667rem;
+  justify-content: space-between;
+}
+
+.icon1 {
+  z-index: 4;
+  width: 0.32rem;
+  height: 0.534rem;
+  margin-top: 0.08rem;
+}
+
+.txt1 {
+  z-index: 26;
+  width: 2.08rem;
+  height: 0.667rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 0.48rem;
+  letter-spacing: 1.3375000953674316px;
+  white-space: nowrap;
+  line-height: 0.667rem;
+  text-align: left;
+}
+
+.group2 {
+  z-index: 8;
+  height: 1.174rem;
+  width: 10rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 0.374rem 0.294rem 0;
+}
+
+.main2 {
+  z-index: auto;
+  width: 9.067rem;
+  height: 0.454rem;
+}
+
+.box1 {
+  z-index: 23;
+  width: 1.44rem;
+  height: 0.454rem;
+  overflow-wrap: break-word;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.word1 {
+  font-size: 0.373rem;
+  font-family: Helvetica;
+  color: rgba(0, 0, 0, 1);
+  line-height: 0.454rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.word2 {
+  font-size: 0.373rem;
+  font-family: Helvetica;
+  color: rgba(0, 0, 0, 1);
+  line-height: 0.454rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.box2 {
+  z-index: 17;
+  width: 0.454rem;
+  height: 0.294rem;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng8ce7767a969f0a87db754c9e45a3e7a4dcead05688664c56b6305e19b5138508) -0.027rem -0.027rem
+    no-repeat;
+  background-size: 0.48rem 0.32rem;
+  margin: 0.054rem 0 0 5.84rem;
+}
+
+.box3 {
+  z-index: 13;
+  width: 0.427rem;
+  height: 0.294rem;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng92d71d13da58ba4887551315bf83a1d7044dd8e56d5d54f8f479185caa02c6e2) -0.027rem
+    0rem no-repeat;
+  background-size: 0.427rem 0.32rem;
+  margin: 0.054rem 0 0 0.134rem;
+}
+
+.icon2 {
+  z-index: 9;
+  width: 0.667rem;
+  height: 0.32rem;
+  margin: 0.027rem 0 0 0.107rem;
+}
+
+.layer2 {
+  z-index: auto;
+  width: 9.467rem;
+  height: 10.667rem;
+  margin: 0.534rem 0 0 0.267rem;
+}
+
+.box4 {
+  z-index: 27;
+  height: 5.067rem;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 4px 0px rgba(153, 153, 153, 0.19);
+  margin-bottom: 0.534rem;
+  width: 9.467rem;
+  justify-content: flex-start;
+}
+
+.block1 {
+  z-index: auto;
+  width: 9.467rem;
+  height: 4.8rem;
+}
+
+.block2 {
+  z-index: 38;
+  position: relative;
+  width: 9.467rem;
+  height: 4rem;
+  border-radius: 6px 6px 0 0;
+  overflow: hidden;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng5732e49fc5e8717806a3e7fe10ef71aa4702070da06439258a7002cdeae0fac4)
+    100% no-repeat;
+}
+
+.group3 {
+  z-index: 39;
+  height: 4rem;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng6fe984ccdaa49dc6a50cf9df820e2e93fcbbfba65a45fb00756828ae7d7e5637)
+    100% no-repeat;
+  width: 9.467rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.img1 {
+  z-index: 40;
+  width: 9.467rem;
+  height: 4rem;
+}
+
+.block3 {
+  z-index: auto;
+  width: 8.72rem;
+  height: 0.534rem;
+  justify-content: space-between;
+  margin: 0.267rem 0 0 0.16rem;
+}
+
+.info1 {
+  z-index: 45;
+  width: 2.934rem;
+  height: 0.534rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(102, 102, 102, 1);
+  font-size: 0.373rem;
+  letter-spacing: -0.335999995470047px;
+  white-space: nowrap;
+  line-height: 0.534rem;
+  text-align: left;
+}
+
+.mod1 {
+  z-index: 29;
+  width: 0.267rem;
+  height: 0.454rem;
+  margin-top: 0.054rem;
+}
+
+.img2 {
+  z-index: 24;
+  width: 3.574rem;
+  height: 0.134rem;
+  align-self: center;
+  margin-top: 7.734rem;
+}

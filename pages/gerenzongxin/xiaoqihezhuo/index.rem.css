@@ -1,0 +1,204 @@
+html {
+  font-size: 37.5px;
+}
+
+.page {
+  z-index: 1;
+  position: relative;
+  width: 10rem;
+  height: 21.654rem;
+  background-color: rgba(247, 247, 247, 1);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding-top: 0;
+}
+
+.group1 {
+  z-index: auto;
+  width: 10rem;
+  height: 21.414rem;
+}
+
+.group2 {
+  z-index: 2;
+  height: 2.347rem;
+  background-color: rgba(255, 255, 255, 1);
+  width: 10rem;
+  align-items: flex-end;
+  position: relative;
+}
+
+.main1 {
+  z-index: 3;
+  height: 2.347rem;
+  background-color: rgba(255, 255, 255, 1);
+  width: 9.974rem;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0 0 0.267rem 0.24rem;
+}
+
+.box1 {
+  z-index: auto;
+  width: 5.76rem;
+  height: 0.667rem;
+  justify-content: space-between;
+}
+
+.label1 {
+  z-index: 4;
+  width: 0.32rem;
+  height: 0.534rem;
+  margin-top: 0.08rem;
+}
+
+.info1 {
+  z-index: 26;
+  width: 2.08rem;
+  height: 0.667rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 0.48rem;
+  letter-spacing: 1.3375000953674316px;
+  white-space: nowrap;
+  line-height: 0.667rem;
+  text-align: left;
+}
+
+.main2 {
+  z-index: 8;
+  height: 1.174rem;
+  width: 10rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 0.374rem 0.294rem 0;
+}
+
+.wrap1 {
+  z-index: auto;
+  width: 9.067rem;
+  height: 0.454rem;
+}
+
+.box2 {
+  z-index: 23;
+  width: 1.44rem;
+  height: 0.454rem;
+  overflow-wrap: break-word;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.word1 {
+  font-size: 0.373rem;
+  font-family: Helvetica;
+  color: rgba(0, 0, 0, 1);
+  line-height: 0.454rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.info2 {
+  font-size: 0.373rem;
+  font-family: Helvetica;
+  color: rgba(0, 0, 0, 1);
+  line-height: 0.454rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.box3 {
+  z-index: 17;
+  width: 0.454rem;
+  height: 0.294rem;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng8ce7767a969f0a87db754c9e45a3e7a4dcead05688664c56b6305e19b5138508) -0.027rem -0.027rem
+    no-repeat;
+  background-size: 0.48rem 0.32rem;
+  margin: 0.054rem 0 0 5.84rem;
+}
+
+.box4 {
+  z-index: 13;
+  width: 0.427rem;
+  height: 0.294rem;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng92d71d13da58ba4887551315bf83a1d7044dd8e56d5d54f8f479185caa02c6e2) -0.027rem
+    0rem no-repeat;
+  background-size: 0.427rem 0.32rem;
+  margin: 0.054rem 0 0 0.134rem;
+}
+
+.label2 {
+  z-index: 9;
+  width: 0.667rem;
+  height: 0.32rem;
+  margin: 0.027rem 0 0 0.107rem;
+}
+
+.group3 {
+  z-index: 28;
+  position: relative;
+  width: 9.467rem;
+  height: 5.334rem;
+  border-radius: 8px;
+  box-shadow: 1px 1px 9px -2px rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng20c6ed7fef8f6cc6e72413c046e3b3e4a0c57b5fdc130b89355114138d607de8) -0.16rem -0.16rem
+    no-repeat;
+  background-size: 9.84rem 5.707rem;
+  align-self: center;
+  margin-top: 0.534rem;
+}
+
+.pic1 {
+  z-index: 29;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 9.467rem;
+  height: 5.334rem;
+}
+
+.img1 {
+  z-index: 24;
+  width: 3.574rem;
+  height: 0.134rem;
+  align-self: center;
+  margin-top: 13.067rem;
+}
+
+.group4 {
+  z-index: 30;
+  height: 5.334rem;
+  border-radius: 8px;
+  box-shadow: 1px 1px 9px -2px rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngf58d80b04dc9c35af631f8f9525b2984a456e08b9e523e654f33d0c04d41100d) -0.16rem -0.16rem
+    no-repeat;
+  background-size: 9.84rem 5.707rem;
+  width: 9.467rem;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0.267rem;
+  top: 2.88rem;
+}
+
+.info3 {
+  z-index: 31;
+  width: 4.48rem;
+  height: 0.987rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.693rem;
+  letter-spacing: 1.9319446086883545px;
+  font-family: PingFangSC-Medium;
+  white-space: nowrap;
+  line-height: 0.987rem;
+  text-align: left;
+}

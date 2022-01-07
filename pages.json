@@ -1,0 +1,534 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/center/index",
+			"style": {
+				"navigationBarTitleText": "uView-center"
+			}
+		}
+	    ,{
+            "path" : "pages/shop/shop",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商城",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shexiantou/shexiantou",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        },{
+            "path" : "pages/jiaoyi/jiaoyi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "交易市场",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/redian/redian",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/redian/zhifujin/zhifujin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": " 致富经",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"autoBackButton":false
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/shop/shopXianqin/shopXianqin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Login/Login",
+			"name": "Login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Login/Login2/Login2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shexiantou/sexiantouxianqing/sexiantouxianqing",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "地块详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/weixiaoquang/weixiaoquang",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "微小圈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/gerenzongxin",
+            "style": {
+            	"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/sezhi/sezhi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/sezhi/sezhi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/sezhi/zanhaoheanquang/zanhaoheanquang",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账号和安全",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/sezhi/bandinsouji/bandinsouji",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "绑定手机号",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/sezhi/shimingrenzhen/shimingrenzhen",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "实名认证",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/sezhi/sezhimima/sezhimima",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/sezhi/tongyong/tongyong",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/sezhi/guanyuwomen/guanyuwomen",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/yuer/yuer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的余额",  
+                       "app-plus": {  
+                           "titleNView": {  
+                               "buttons": [{  
+                                   "text": "明细",  
+                                   "fontSrc": "/static/uni.ttf",  
+                                   "fontSize": "30vw"  
+                               }]  
+                           }  
+                       }  
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/yuer/mingxi/mingxi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "明细",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/yuer/tixian/tixian",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提现",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/yuer/tianjiayinhanka/tianjiayinhanka",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/yuer/tianjiayinhanka/tianjiayinhanka02/tianjiayinhanka02",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/neijisouyi/neijisouyi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "累计收益",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/jifen/jifen",
+            "style": {
+            	"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/jifen/shop/shop",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/souhuo/souhuo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "在线客服",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/souhuo/kefu/kefu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "在线客服",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/souhuo/cakanwuniou/cakanwuniou",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "查看物流",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/sexiantou/sexiantou",
+            "style": {
+            	"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/canku/canku",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/canku/canku",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的仓库",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/souhuodizhi/souhuodizhi",
+            "style" :
+            {
+                "navigationBarTitleText": "我的地址",  
+                       "app-plus": {  
+                           "titleNView": {  
+                               "buttons": [{  
+                                   "text": "管理",  
+                                   "fontSrc": "/static/uni.ttf",  
+                                   "fontSize": "30vw"  
+                               }]  
+                           }  
+                       }  
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/souhuodizhi/xiougaisouhuodizhi/xiougaisouhuodizhi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑收货地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/xiaoqihezhuo/xiaoqihezhuo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "校企合作",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/nianxiwomen/nianxiwomen",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "联系我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/zhenxinfupin/zhenxinfupin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "振兴扶贫",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/xianxiahetong/xianxiahetong",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "线下活动",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/xianxiahetong/xianqing/xianqing",
+            "style": {
+            	"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzongxin/canku/jiaoyi/jiaoyi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "交易进行",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/jiaoyi/jiaoyishop/jiaoyishop",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/noncan/noncan",
+            "style": {
+            	"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/shop/fahuo/fahuo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "确认订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shop/fahuo/souhuodizhi/souhuodizhi",
+            "style" :
+            {
+                "navigationBarTitleText": "我的地址",  
+                       "app-plus": {  
+                           "titleNView": {  
+                               "buttons": [{  
+                                   "text": "管理",  
+                                   "fontSrc": "/static/uni.ttf",  
+                                   "fontSize": "30vw"  
+                               }]  
+                           }  
+                       }  
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/shop/shop",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商城",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/shishizhibo/shishizhibo",
+            "style": {
+            	"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/jishujiaoniou/jishujiaoniou",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "技术交流",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/huiyuan/huiyuan",
+            "style": {
+            	"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/qiandao/qiandao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "签到",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#909399",
+	    "selectedColor": "#303133",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/index.png",
+	        "selectedIconPath": "static/index-selected.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/shop/shop",
+	        "iconPath": "static/sanceng1.png",
+	        "selectedIconPath": "static/sanceng1-select.png",
+	        "text": "商城"
+	    }, {
+	        "pagePath": "pages/noncan/noncan",
+	        "iconPath": "static/noncan.png",
+	        "selectedIconPath": "static/noncan-select.png",
+	        "text": "农场"
+	    }, {
+	        "pagePath": "pages/jiaoyi/jiaoyi",
+	        "iconPath": "static/jiaoyi.png",
+	        "selectedIconPath": "static/jiaoyi-select.png",
+	        "text": "交易"
+	    }, {
+	        "pagePath": "pages/gerenzongxin/gerenzongxin",
+	        "iconPath": "static/center.png",
+	        "selectedIconPath": "static/center-select1.png",
+	        "text": "我的"
+	    }]
+	}
+}

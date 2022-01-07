@@ -1,0 +1,437 @@
+.page {
+  z-index: 1;
+  position: relative;
+  width: 750rpx;
+  height: 1624rpx;
+  background-color: rgba(247, 247, 247, 1);
+  overflow: hidden;
+}
+
+.main1 {
+  z-index: auto;
+  width: 750rpx;
+  height: 1624rpx;
+}
+
+.block1 {
+  z-index: 2;
+  height: 176rpx;
+  background-color: rgba(255, 255, 255, 1);
+  width: 750rpx;
+  align-items: flex-end;
+  position: relative;
+}
+
+.outer1 {
+  z-index: 3;
+  height: 176rpx;
+  background-color: rgba(255, 255, 255, 1);
+  width: 748rpx;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0 0 20rpx 18rpx;
+}
+
+.outer2 {
+  z-index: auto;
+  width: 432rpx;
+  height: 50rpx;
+  justify-content: space-between;
+}
+
+.label1 {
+  z-index: 8;
+  width: 24rpx;
+  height: 40rpx;
+  margin-top: 6rpx;
+}
+
+.word1 {
+  z-index: 30;
+  width: 156rpx;
+  height: 50rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 36rpx;
+  letter-spacing: 1.3375000953674316px;
+  white-space: nowrap;
+  line-height: 50rpx;
+  text-align: left;
+}
+
+.outer3 {
+  z-index: 12;
+  height: 88rpx;
+  width: 750rpx;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 28rpx 22rpx 0;
+}
+
+.bd1 {
+  z-index: auto;
+  width: 680rpx;
+  height: 34rpx;
+}
+
+.bd2 {
+  z-index: 27;
+  width: 108rpx;
+  height: 34rpx;
+  overflow-wrap: break-word;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.word2 {
+  font-size: 28rpx;
+  font-family: Helvetica;
+  color: rgba(0, 0, 0, 1);
+  line-height: 34rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.word3 {
+  font-size: 28rpx;
+  font-family: Helvetica;
+  color: rgba(0, 0, 0, 1);
+  line-height: 34rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bd3 {
+  z-index: 21;
+  width: 34rpx;
+  height: 22rpx;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng8ce7767a969f0a87db754c9e45a3e7a4dcead05688664c56b6305e19b5138508) -1rpx -1rpx
+    no-repeat;
+  margin: 4rpx 0 0 438rpx;
+}
+
+.bd4 {
+  z-index: 17;
+  width: 32rpx;
+  height: 22rpx;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng92d71d13da58ba4887551315bf83a1d7044dd8e56d5d54f8f479185caa02c6e2) -1rpx
+    0rpx no-repeat;
+  margin: 4rpx 0 0 10rpx;
+}
+
+.label2 {
+  z-index: 13;
+  width: 50rpx;
+  height: 24rpx;
+  margin: 2rpx 0 0 8rpx;
+}
+
+.block2 {
+  z-index: 31;
+  height: 528rpx;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 9px -2px rgba(0, 0, 0, 0.19);
+  align-self: center;
+  margin-top: 40rpx;
+  width: 710rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.main2 {
+  z-index: auto;
+  width: 630rpx;
+  height: 448rpx;
+}
+
+.bd5 {
+  z-index: auto;
+  width: 622rpx;
+  height: 200rpx;
+  justify-content: space-between;
+}
+
+.bd6 {
+  z-index: 33;
+  position: relative;
+  width: 200rpx;
+  height: 200rpx;
+  overflow: hidden;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng03d4323b68b02c3e3ecd4cd7893d6657fb870bfb3833a0dd43b2f5f1ded9ba63)
+    100% no-repeat;
+}
+
+.img1 {
+  z-index: 34;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.bd7 {
+  z-index: auto;
+  width: 384rpx;
+  height: 168rpx;
+  margin-top: 2rpx;
+}
+
+.paragraph1 {
+  z-index: 35;
+  width: 384rpx;
+  height: 120rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 28rpx;
+  letter-spacing: -0.335999995470047px;
+  line-height: 40rpx;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.info1 {
+  z-index: 36;
+  width: 56rpx;
+  height: 44rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(1, 78, 8, 1);
+  font-size: 32rpx;
+  letter-spacing: -0.3840000033378601px;
+  white-space: nowrap;
+  line-height: 44rpx;
+  text-align: left;
+  align-self: flex-start;
+  margin: 4rpx 0 0 2rpx;
+}
+
+.bd8 {
+  z-index: auto;
+  width: 610rpx;
+  height: 48rpx;
+  justify-content: space-between;
+  margin: 42rpx 0 0 20rpx;
+}
+
+.txt1 {
+  z-index: 37;
+  width: 110rpx;
+  height: 40rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 28rpx;
+  letter-spacing: -0.335999995470047px;
+  white-space: nowrap;
+  line-height: 40rpx;
+  text-align: left;
+  margin-top: 4rpx;
+}
+
+.mod1 {
+  z-index: 41;
+  height: 48rpx;
+  border-radius: 2px;
+  border: 1px solid rgba(153, 153, 153, 1);
+  background-color: rgba(255, 255, 255, 1);
+  width: 180rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 {
+  z-index: auto;
+  width: 152rpx;
+  height: 46rpx;
+}
+
+.block3 {
+  z-index: 45;
+  width: 20rpx;
+  height: 4rpx;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng2f8f867df272644cc819e08dd8b7bf41c5ac155489377d4910f5eb2aaa7db04a)
+    100% no-repeat;
+  margin-top: 20rpx;
+}
+
+.block4 {
+  z-index: 42;
+  width: 2rpx;
+  height: 46rpx;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng8644c155b38b3e379a1a6e45e6337d14db6e8362436bb9604417c5b3979c9f5a)
+    0rpx -1rpx no-repeat;
+  margin-left: 12rpx;
+}
+
+.info2 {
+  z-index: 44;
+  width: 14rpx;
+  height: 44rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 32rpx;
+  letter-spacing: -0.3840000033378601px;
+  white-space: nowrap;
+  line-height: 44rpx;
+  text-align: left;
+  margin-left: 34rpx;
+}
+
+.block5 {
+  z-index: 43;
+  width: 2rpx;
+  height: 46rpx;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng8644c155b38b3e379a1a6e45e6337d14db6e8362436bb9604417c5b3979c9f5a)
+    0rpx -1rpx no-repeat;
+  margin-left: 36rpx;
+}
+
+.icon1 {
+  z-index: 47;
+  width: 20rpx;
+  height: 20rpx;
+  margin: 12rpx 0 0 12rpx;
+}
+
+.bd9 {
+  z-index: auto;
+  width: 288rpx;
+  height: 40rpx;
+  justify-content: space-between;
+  margin: 40rpx 0 0 20rpx;
+}
+
+.info3 {
+  z-index: 38;
+  width: 56rpx;
+  height: 40rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 28rpx;
+  letter-spacing: -0.335999995470047px;
+  white-space: nowrap;
+  line-height: 40rpx;
+  text-align: left;
+}
+
+.txt2 {
+  z-index: 39;
+  width: 212rpx;
+  height: 34rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 24rpx;
+  letter-spacing: -0.2879999876022339px;
+  white-space: nowrap;
+  line-height: 34rpx;
+  text-align: left;
+  margin-top: 4rpx;
+}
+
+.bd10 {
+  z-index: 40;
+  width: 198rpx;
+  height: 40rpx;
+  overflow-wrap: break-word;
+  text-align: left;
+  white-space: nowrap;
+  align-self: flex-end;
+  margin-top: 38rpx;
+  font-size: 0;
+}
+
+.word4 {
+  font-size: 24rpx;
+  color: rgba(51, 51, 51, 1);
+  line-height: 34rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.word5 {
+  font-size: 28rpx;
+  color: rgba(51, 51, 51, 1);
+  line-height: 34rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.block6 {
+  z-index: 4;
+  height: 188rpx;
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 692rpx;
+  width: 750rpx;
+}
+
+.main3 {
+  z-index: auto;
+  width: 478rpx;
+  height: 100rpx;
+  justify-content: space-between;
+  margin: 20rpx 0 0 252rpx;
+}
+
+.txt3 {
+  z-index: 7;
+  width: 238rpx;
+  height: 50rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 36rpx;
+  letter-spacing: -0.4320000112056732px;
+  white-space: nowrap;
+  line-height: 50rpx;
+  text-align: left;
+  margin-top: 26rpx;
+}
+
+.section2 {
+  z-index: 5;
+  height: 100rpx;
+  border-radius: 25px;
+  background-color: rgba(11, 196, 119, 1);
+  width: 220rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.word6 {
+  z-index: 6;
+  width: 142rpx;
+  height: 50rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 36rpx;
+  letter-spacing: -0.4320000112056732px;
+  white-space: nowrap;
+  line-height: 50rpx;
+  text-align: left;
+}
+
+.main4 {
+  z-index: auto;
+  width: 268rpx;
+  height: 10rpx;
+  margin: 40rpx 0 0 242rpx;
+}
+
+.img2 {
+  z-index: 28;
+  width: 268rpx;
+  height: 10rpx;
+}

@@ -1,0 +1,13 @@
+{
+    "id": "ua-navbar",
+    "name": "navbar自定义导航条",
+    "version": "v1.1.0",
+    "description": "uniapp多端自定义顶部导航栏组件。支持自定义背景色、标题颜色、标题居中、是否固定、背景沉浸式透明、层级等功能。",
+    "keywords": [
+        "ua-navbar",
+        "navbar",
+        "导航条",
+        "导航栏",
+        "topbar"
+    ]
+}
